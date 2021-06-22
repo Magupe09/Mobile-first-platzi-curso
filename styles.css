@@ -273,12 +273,12 @@ main{
     color: #808080;
 }
 .product-detail--card{
-    width: 100%;
+    width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin: 15px auto;
-    padding: 15px;
+    padding: 8px;
     background-color: var(--black);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.16);
@@ -337,4 +337,23 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('./img/assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.bitcoin-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    
 }
